@@ -2,31 +2,31 @@ $primary-color: #2f80ed;
 $secondary-color: #333333;
 
 html {
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 * {
-    color: $secondary-color;
+    color: #333333;
 }
 
 h1 {
-    color: $primary-color;
+    color: #2f80ed;
     margin-bottom: 0.25em;
 }
 
 h2 {
-    color: $secondary-color;
+    color: #2f80ed;
     font-size: 1em;
     margin-top: 0;
     margin-bottom: 1em;
 }
 
 h3 {
-    color: $primary-color;
+    color: #2f80ed;
 }
 
 a{
-    color: $primary-color;
+    color: #2f80ed;
 }
 
 .contact{
@@ -44,12 +44,12 @@ margin-bottom: 2em;
 .exp {
     display: flex;
     margin-bottom: 2em;
-    $__date {
+    &__date {
         min-width: 185px;
         margin-bottom: 1em;
     }
 
-    $__name {
+    &__name {
         font-weight: bold;
     }
 }

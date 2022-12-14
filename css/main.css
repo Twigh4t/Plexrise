@@ -18,8 +18,16 @@ h2 {
   margin-bottom: 1em;
 }
 
+h3 {
+  color: #2f80ed;
+}
+
 a {
   color: #2f80ed;
+}
+
+.contact {
+  margin-bottom: 2em;
 }
 
 .contact {
@@ -27,4 +35,16 @@ a {
 }
 .contact_type {
   min-width: 90px;
+}
+
+.exp {
+  display: flex;
+  margin-bottom: 2em;
+}
+.exp__date {
+  min-width: 185px;
+  margin-bottom: 1em;
+}
+.exp__name {
+  font-weight: bold;
 }/*# sourceMappingURL=main.css.map */
