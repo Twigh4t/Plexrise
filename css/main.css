@@ -1,9 +1,10 @@
 html {
   font-family: Roboto, sans-serif;
+  background-color: #202020;
 }
 
 * {
-  color: #333333;
+  color: #ffffff;
 }
 
 h1 {
@@ -12,7 +13,7 @@ h1 {
 }
 
 h2 {
-  color: #333333;
+  color: #2f80ed;
   font-size: 1em;
   margin-top: 0;
   margin-bottom: 1em;
@@ -24,6 +25,14 @@ h3 {
 
 a {
   color: #2f80ed;
+}
+
+section {
+  margin-bottom: 3em;
+}
+
+.cv {
+  margin-left: 90px;
 }
 
 .contact {
@@ -47,4 +56,8 @@ a {
 }
 .exp__name {
   font-weight: bold;
+}
+
+.form {
+  margin-left: 27%;
 }/*# sourceMappingURL=main.css.map */
